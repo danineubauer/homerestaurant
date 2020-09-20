@@ -25,20 +25,19 @@
     </div>
 
     <div class="landingPageHero">
-      <img src="./assets/landingImg.jpg" />
-      <div class="mainPageSearchBar">
-        <form>
-          <label for="search">Find restaurants near you</label>
-          <input
-            type="text"
-            name="landingPageSearch"
-            id="landingPageSearch"
-            class="landingPageSearchBar"
-            placeholder="Location"
-          />
-          <button type="submit">Seach</button>
-        </form>
-      </div>
+      <form class="mainPageSearchForm">
+        <h1 class="landingPageMainHeader">HomeRestaurant</h1>
+        <h2><label for="search">Find restaurants near you</label></h2>
+        <input
+          type="text"
+          name="landingPageSearch"
+          id="landingPageSearch"
+          class="landingPageSearchBar"
+          placeholder="Location"
+        />
+        <button type="submit" class="landingPageSearchButton">Seach</button>
+      </form>
+      <img class="landingPageHeroImg" src="../assets/landingImg.jpg" />
     </div>
 
     <script src="/javascript.js" async defer></script>

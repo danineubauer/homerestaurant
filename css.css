@@ -1,15 +1,31 @@
 body {
   margin: 0;
 }
-.topbar {
+.topMainBar {
   height: 60px;
   background-color: #eee;
   font: "Roboto";
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.landingPageHero { 
-    background-image()
+.topMainLeftLinks {
+  margin-left: 50px;
+}
+
+.topMainRightLinks {
+  margin-right: 50px;
+}
+
+.landingPageHero {
+}
+
+.mainPageSearchBar {
+}
+
+.landingPageSearchBar {
 }
 
 h7 {

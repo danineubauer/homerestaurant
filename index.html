@@ -6,21 +6,39 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css.css" />
   </head>
   <body>
     <div class="topMainBar">
-      <div class="leftLogo">
-        <h7> HomeRestaurant </h7>
+      <div class="topMainLeftLinks">
+        <h7>HomeRestaurant </h7>
       </div>
-      <div class="rightLinks">
+      <div class="topMainRightLinks">
         <h7>Sign up</h7>
         <h7>Login</h7>
         <button>List your restaurant</button>
       </div>
     </div>
+
     <div class="landingPageHero">
-      <div class="mainPageSearchBar"></div>
+      <img src="./assets/landingImg.jpg" />
+      <div class="mainPageSearchBar">
+        <form>
+          <label for="search">Find restaurants near you</label>
+          <input
+            type="text"
+            name="landingPageSearch"
+            id="landingPageSearch"
+            class="landingPageSearchBar"
+            placeholder="Location"
+          />
+          <button type="submit">Seach</button>
+        </form>
+      </div>
     </div>
 
     <script src="/javascript.js" async defer></script>

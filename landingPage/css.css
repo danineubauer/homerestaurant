@@ -4,12 +4,21 @@ body {
 
 button {
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-radius: 20px;
+  margin: 10px;
+    color: #be506b;
+    background-color: #fff;
+    border: 1px solid #be506b;  
 }
+
 .topMainBar {
-  height: 60px;
+  height: 70px;
   background-color: #eee;
   font: "Roboto";
-  margin: 0;
+  margin: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,7 +29,16 @@ button {
 }
 
 .topMainRightLinks {
-  margin-right: 50px;
+  margin-right: 60px;
+}
+
+.eachRightLink {
+  padding: 10px;
+}
+
+.restaurantListButton {
+  margin: 10px;
+  padding: 8px;
 }
 
 .landingPageHero {
@@ -46,13 +64,28 @@ button {
   border-radius: 4;
   width: 400px;
   height: 30px;
-  margin: 10px;
+  margin: 20px;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 30px;
+  border: none;
+  shadow
 }
+
+input:focus { 
+  outline: none !important;
+}
+input {
+  cursor: pointer;
+}
+
 
 .landingPageSearchButton {
   width: 80px;
   height: 30px;
 }
+
+
 
 .landingPageHeroImg {
   width: 100%;
